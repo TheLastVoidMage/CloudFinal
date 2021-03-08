@@ -20,6 +20,9 @@
 
 		gtag('config', 'G-0R2P1KT71E');
 		</script>
+		<link href="algolia.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
+
 	</head>
 	<body class="is-preload">
 
@@ -47,6 +50,14 @@
 							<div><iframe width="500px" title="COVID-19 Aggregate Cases Current Daily County Health" height="425px" src="https://data.pa.gov/w/j72v-r42c/33ch-zxdi?cur=4kFbR921kbI&from=root" frameborder="0"scrolling="no"><a href="https://data.pa.gov/Health/COVID-19-Aggregate-Cases-Current-Daily-County-Heal/j72v-r42c" title="COVID-19 Aggregate Cases Current Daily County Health" target="_blank">COVID-19 Aggregate Cases Current Daily County Health</a></iframe></div>
 							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
 							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<div class="ais-InstantSearch">
+
+								<h1>Algolia Search Demo</h1>
+								<div id="searchbox"></div>
+								<div id="hits"></div>
+								<div id="pagination"></div>
+								
+							</div>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -214,6 +225,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
+			<script src="script.js"></script>
 	</body>
 </html>
